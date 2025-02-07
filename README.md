@@ -1,6 +1,9 @@
 # Self-Analysis Mental Health Model
 
 ## Overview
+This project has been deployed on Streamlit and can be accessed at:
+[Self-Analysis Mental Health Model](https://self-analysismentalhealthmodelarogoai-2xratdau99pfcmkqrru9h4.streamlit.app/)
+
 This project develops a **Self-Analysis Mental Health Model** that predicts possible mental health conditions based on user-provided symptoms. The model utilizes machine learning algorithms (Random Forest & XGBoost) and integrates an **LLM-based explanation system** to provide insights and coping mechanisms. A **Streamlit-based UI** is implemented for user interaction.
 
 ## Dataset
