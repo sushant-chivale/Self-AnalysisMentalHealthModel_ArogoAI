@@ -1,6 +1,6 @@
 import google.generativeai as genai
 from langchain_google_genai import ChatGoogleGenerativeAI
-from helper import main
+from helper import main1
 import streamlit as st
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
