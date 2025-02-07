@@ -108,7 +108,7 @@ if st.button("🔮 Predict"):
     if not user_input_df.empty and model_options:
         with st.spinner("Processing your prediction..."):
             # Call the main function from helper.py
-            prediction = main("depression_anxiety_data.csv", user_input_df)
+            prediction = main1("depression_anxiety_data.csv", user_input_df)
 
             # Filter predictions based on selected models
             filtered_prediction = {model: prediction[model] for model in model_options}
