@@ -106,5 +106,5 @@ user_input_data = {
 user_input_df = pd.DataFrame(user_input_data)
 
 # Uncomment below line to run with actual data
-predictions = main("depression_anxiety_data.csv", user_input_df)
+predictions = main1("depression_anxiety_data.csv", user_input_df)
 print(predictions)
