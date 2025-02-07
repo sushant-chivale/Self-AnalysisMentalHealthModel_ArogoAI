@@ -67,7 +67,7 @@ def predict(models, user_input):
     return predictions
 
 # Main Function to Run Everything
-def main(filepath, user_input):
+def main1(filepath, user_input):
     data = load_data(filepath)
     data, label_encoders = preprocess_data(data)
     X, y, selected_features = feature_selection(data)
